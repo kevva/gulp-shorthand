@@ -1,6 +1,8 @@
 # gulp-shorthand [![Build Status](http://img.shields.io/travis/kevva/gulp-shorthand.svg?style=flat)](https://travis-ci.org/kevva/gulp-shorthand)
 
-> Makes your CSS files lighter and more readable
+> [shrthnd](https://github.com/frankmarineau/shrthnd.js) makes your CSS files lighter and more readable
+
+*Issues with the output should be reported on the shrthnd [issue tracker](https://github.com/frankmarineau/shrthnd.js/issues).*
 
 ## Install
 

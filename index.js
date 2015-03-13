@@ -19,11 +19,13 @@ module.exports = function () {
 		try {
 			var ret = shorthand(file.contents.toString());
 			file.contents = new Buffer(ret.string);
-			cb(null, file);
+			this.push(file);
 		} catch (err) {
-			cb(new gutil.PluginError('gulp-shorthand:', err, {
+			this.emit('error', new gutil.PluginError('gulp-shorthand:', err, {
 				fileName: file.path
 			}));
 		}
+
+		cb();
 	});
 };
