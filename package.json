@@ -1,6 +1,6 @@
 {
   "name": "gulp-shorthand",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Makes your CSS files lighter and more readable",
   "license": "MIT",
   "repository": "kevva/gulp-shorthand",
