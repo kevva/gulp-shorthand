@@ -8,9 +8,11 @@ test(function (t) {
 	t.plan(1);
 
 	var stream = shorthand();
+	var contents;
 
 	stream.on('data', function (file) {
-		t.assert(file.contents.indexOf('background: url(\'cat.jpg\') top center;') !== -1);
+		contents = file.contents.toString();
+		t.assert(contents.indexOf('background: url(\'cat.jpg\') top center;') !== -1);
 	});
 
 	stream.end(new gutil.File({
