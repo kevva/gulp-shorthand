@@ -1,0 +1,30 @@
+{
+  "name": "gulp-shorthand",
+  "version": "1.0.0",
+  "description": "Makes your CSS files lighter and more readable",
+  "license": "MIT",
+  "repository": "kevva/gulp-shorthand",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "shrthnd": "0.0.2",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  }
+}
