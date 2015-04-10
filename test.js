@@ -1,8 +1,8 @@
 'use strict';
 
 var gutil = require('gulp-util');
-var shorthand = require('./');
 var test = require('ava');
+var shorthand = require('./');
 
 test(function (t) {
 	t.plan(1);

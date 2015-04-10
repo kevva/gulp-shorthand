@@ -4,11 +4,13 @@
 
 *Issues with the output should be reported on the shrthnd [issue tracker](https://github.com/frankmarineau/shrthnd.js/issues).*
 
+
 ## Install
 
-```bash
+```
 $ npm install --save gulp-shorthand
 ```
+
 
 ## Usage
 
@@ -22,6 +24,7 @@ gulp.task('default', function () {
 		.pipe(gulp.dest('dest'));
 });
 ```
+
 
 ## License
 
