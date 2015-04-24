@@ -21,7 +21,7 @@
   "keywords": [],
   "dependencies": {
     "gulp-util": "^3.0.4",
-    "shrthnd": "0.0.2",
+    "shrthnd": "^0.0.6",
     "through2": "^0.6.3"
   },
   "devDependencies": {
