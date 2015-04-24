@@ -1,4 +1,4 @@
-# gulp-shorthand [![Build Status](http://img.shields.io/travis/kevva/gulp-shorthand.svg?style=flat)](https://travis-ci.org/kevva/gulp-shorthand)
+# gulp-shorthand [![Build Status](https://travis-ci.org/kevva/gulp-shorthand.svg?branch=master)](https://travis-ci.org/kevva/gulp-shorthand)
 
 > [shrthnd](https://github.com/frankmarineau/shrthnd.js) makes your CSS files lighter and more readable
 
